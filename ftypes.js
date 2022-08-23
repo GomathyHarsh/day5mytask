@@ -30,12 +30,13 @@ var titleCaps = function() {
 
 //convert all the strings to title caps in a string array by using IIFE
 (function str(){
-    var string="string"
+    var string=["s,t,r,i,n,g"];
     var strArr =[];
     for(let i=0; i<string.length;i++) {
         strArr.push(string[i].toUpperCase());
-        console.log(strArr[i]);
+        console.log(strArr);
     }
+   
 })
 ();
 //Sum all the number in an array by using anonymous function
